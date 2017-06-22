@@ -1,0 +1,28 @@
+{
+  "name": "openui5.node.example",
+  "version": "0.0.1",
+  "description": "This project ist meant to be a starting point of an openui5 development using nodejs/express as a server.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maugenst/openui5.node.example.git"
+  },
+  "keywords": [
+    "openui5",
+    "nodejs",
+    "express"
+  ],
+  "author": "Marius Augenstein",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/maugenst/openui5.node.example/issues"
+  },
+  "homepage": "https://github.com/maugenst/openui5.node.example#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "openui5.runtime.downloader": "1.46.9"
+  }
+}

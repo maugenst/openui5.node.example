@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <title>OpenUI5 on NodeJS - Hello World</title>
+
+    <script id='sap-ui-bootstrap'
+            src='../resources/sap-ui-core.js'
+            data-sap-ui-theme='sap_belize'
+            data-sap-ui-libs='sap.m'
+            data-sap-ui-compatVersion='edge'
+            data-sap-ui-preload='async'>
+    </script>
+
+    <script>
+        sap.ui.getCore().attachInit(function () {
+            jQuery("#content").html("Hello World - UI5 is ready on NodeJS and Express");
+        });
+    </script>
+
+</head>
+<body class='sapUiBody'>
+<div id='content'></div>
+</body>
+</html>
