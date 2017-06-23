@@ -1,6 +1,6 @@
 {
   "name": "openui5.node.example",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This project ist meant to be a starting point of an openui5 development using nodejs/express as a server.",
   "main": "app.js",
   "scripts": {
